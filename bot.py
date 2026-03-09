@@ -9,7 +9,7 @@ import logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
+BOT_TOKEN = os.environ.get("8424270071:AAGrRuewVf0TbGMGsP-GVJKHcXNw0vx1fRE")
 if not BOT_TOKEN:
     raise ValueError("BOT_TOKEN not set!")
 
