@@ -5,7 +5,7 @@ import os
 import tempfile
 import time
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
+BOT_TOKEN = os.environ.get("8424270071:AAGrRuewVf0TbGMGsP-GVJKHcXNw0vx1fRE")
 bot = telebot.TeleBot(BOT_TOKEN)
 user_states = {}
 
